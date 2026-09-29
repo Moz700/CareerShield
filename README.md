@@ -35,8 +35,8 @@ data/README.md                 where to download the files that are not committe
 ## 1. Reproduce the paper's results (about one minute, no downloads)
 
 ```bash
-# Get the code: green "Code" button > "Download ZIP", then unzip it (or clone it with git).
-# Open a terminal inside the CareerShield folder, then:
+git clone https://github.com/Moz700/CareerShield.git
+cd CareerShield
 python -m venv .venv
 # Windows: .venv\Scripts\activate     macOS/Linux: source .venv/bin/activate
 pip install -r evaluation/requirements.txt
@@ -82,10 +82,11 @@ The e-LATiH course catalogue compiled from the HRD Corp platform is not redistri
   author  = {Billah, Moztoba Mutashim and Paul, Aritra},
   title   = {CareerShield: AI-exposure-aware career transition advice for Malaysian workers},
   version = {1.0.0},
-  year    = {2026}
+  year    = {2026},
+  url     = {https://github.com/Moz700/CareerShield}
 }
 ```
 
 ## Contact
 
-Moztoba Mutashim Billah, Sunway Business School, Sunway University, Malaysia.
+Moztoba Mutashim Billah, Sunway Business School, Sunway University, Malaysia. Email: moztobamutashim@gmail.com

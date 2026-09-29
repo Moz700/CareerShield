@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: "2026-09-29"
 license: MIT
+repository-code: "https://github.com/Moz700/CareerShield"
 abstract: "Pipeline, interactive demo and evaluation code for CareerShield, a career-transition recommender that combines three published generative-AI exposure indices, transfers them to Malaysian occupations and recommends realistic lower-exposure destinations with reskilling routes. Includes the code that evaluates the recommender on observed AI applicability and post-ChatGPT employment and wage outcomes, and the capacity-capped redesign (v2)."
 keywords:
   - AI exposure
@@ -15,6 +16,7 @@ keywords:
 authors:
   - given-names: "Moztoba Mutashim"
     family-names: "Billah"
+    email: "moztobamutashim@gmail.com"
     affiliation: "Sunway Business School, Sunway University"
   - given-names: "Aritra"
     family-names: "Paul"
