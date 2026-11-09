@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-offline/
+pipeline/inputs/
+pipeline/.cache/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+test-results/
+.DS_Store
+*.log
+perf-results.json
