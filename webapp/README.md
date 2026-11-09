@@ -1,6 +1,4 @@
-# CareerShield
-
-**See how exposed your work is to AI, and where you could move next.**
+<a href="https://moz700.github.io/CareerShield/"><img src="docs/careershield-hero.svg" width="100%" alt="CareerShield: a job title is typed, then the shield carries that worker across a map of 894 occupations, placed by AI exposure and Malaysian salary, to the first move CareerShield suggests." /></a>
 
 CareerShield is a free web app for Malaysian workers. Type a job title in English or Bahasa Malaysia, or
 upload a CV, and it shows how much of that occupation's work overlaps with what current AI can do, which
@@ -21,10 +19,14 @@ shrinking one. Version 2 adds data guards and caps each destination at 8 origins
 deferred acceptance: the top-10 share falls to 9.8% and 71% of the reduction is kept. The app shows all
 three kinds of advice side by side so you can see the difference for your own job.
 
-![Where 820 occupations are sent under version 1](docs/screenshots/crowding.png)
+<img src="docs/careershield-crowding.svg" width="100%" alt="Each dot is one of the 820 evaluated occupations. The ten most recommended jobs receive 7.3% of first recommendations under conventional advice, 27.7% under version 1, including 45 occupations sent to one small, shrinking job, and 9.8% under version 2, which caps each job at 8." />
 
 An exposure score is the overlap between an occupation's tasks and abilities and current AI capability.
 It is not a forecast that a job will disappear.
+
+## How it works
+
+<img src="docs/careershield-how.svg" width="100%" alt="Four layers in order: measure exposure with three published AI exposure indices, map O*NET occupations to MASCO through ISCO-08, rank the moves on skills, exposure, demand and pay, and match a course to each skill gap." />
 
 ## Features
 
@@ -169,6 +171,4 @@ supervised by Dr Mohammed Al-Obaydee.
 
 Questions, corrections and collaboration are welcome. Please open an issue on GitHub or email me.
 
-<p align="center">
-  <a href="https://moz700.github.io/CareerShield/"><img src="docs/banner.svg" alt="CareerShield: every dot is an occupation; one job and its three suggested moves are drawn in turn" width="100%" /></a>
-</p>
+<a href="https://github.com/Moz700"><img src="docs/profile-hero.svg" width="100%" alt="Moztoba Mutashim Billah, Master of Business Analytics, Sunway University. Open to data analyst and business analyst roles." /></a>
