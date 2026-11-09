@@ -1,0 +1,1 @@
+const n=i=>i==null||!Number.isFinite(i)?"n/a":"RM "+Math.round(i).toLocaleString("en-MY"),a=(i,t=0)=>i==null||!Number.isFinite(i)?"n/a":i.toLocaleString("en-MY",{minimumFractionDigits:t,maximumFractionDigits:t}),s=(i,t=1)=>(i>0?"+":i<0?"−":"")+Math.abs(i).toFixed(t);export{a,n as f,s};
